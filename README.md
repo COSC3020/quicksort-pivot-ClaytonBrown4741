@@ -28,7 +28,7 @@ a good pivot value while L and R represent the bad pivot values. Using this info
 how many different combinations resulted in a bad pivot value.  
 To begin, I found that if all 3 of the choices for the pivot fell into either L or R, then the Pivot Value would be bad. The probability of  
 this would be 1/4 * 1/4 * 1/4, so 1/64. However, we must take into account the numerous different combinations of choices that exist. These  
-combinations are listed below:
+combinations are listed below:  
 L * L * L  
 L * L * R  
 L * R * L  
